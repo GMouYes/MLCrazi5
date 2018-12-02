@@ -1,4 +1,3 @@
-# MLCrazi5
 # Object Detection
 
 
