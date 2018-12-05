@@ -28,9 +28,9 @@ if __name__ == '__main__':
             print("Illegal input")
             continue;
         generator = FeatureCompute(300,70)
-        dir = os.getcwd()
-        for count in range(len(os.listdir())):
-            filename = dir + '/TestData/'+ para + '/' + str(count) + '.jpg'
+        dir = os.getcwd() + '/TestData/'+ para
+        for count in range(len(os.listdir(dir))-1):
+            filename = dir + '/' + str(count) + '.jpg'
             img = cv.imread(filename)
             print(filename)
             cv.imshow('show', img)
@@ -54,3 +54,5 @@ if __name__ == '__main__':
                          (0,255,0), 1)
             cv.imshow('show', img)
             cv.waitKey(0)
+            cv.imwrite(('res' + str(count) + '.jpg'), img)
+        cv.destroyAllWindows()

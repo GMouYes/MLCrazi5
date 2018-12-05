@@ -9,16 +9,21 @@ if __name__ == '__main__':
     generator = FeatureCompute(300,70)
     dir = os.getcwd() + '/bbs_toy'
     data = np.float32([]).reshape(0,generator.wordCnt)
-    for count in range(len(os.listdir(dir)) - 1):
+    for count in range(1000):   #len(os.listdir(dir)) - 1):
         filename = dir + '/' + str(count) + '.jpg'
         print(filename)
         img = cv.imread(filename)
+        # if img.shape[0] < 100 or img.shape[1] < 100:
+        #     continue
+        if img is None:
+            continue
         phi = generator.generatePhi(img, 'Toy')
         data = np.append(data, phi, axis=0)
     data = np.mat(data)
     print(data.shape)
     print(type(data))
-    response = classifier.Predict(data, 'RandomForest.sav')
+    np.save('why5.npy', data)
+    response = classifier.Predict(data, 'SVM.sav')
     print(response)
     print(type(response))
     i = np.argmax(response)
