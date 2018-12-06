@@ -24,7 +24,7 @@ In the expreiment of detecting toy, we take 100 pure photos containing the targe
 The target in each experiment is shown in Figure 2 and 3, respectively.
 
 <p align="center">
-  <img src="0.jpg" height="300" width="400"><br/>
+  <img src="0.jpg" height="280" width="400"><br/>
   <h6 align="center">Figure 2: The target in the experiment of detecting logo</h6><br/>
 </p><br/>
 
