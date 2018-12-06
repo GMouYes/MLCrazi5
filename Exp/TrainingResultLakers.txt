@@ -1,0 +1,173 @@
+SVM
+
+Best Parameters
+C	1.5
+degree	1
+kernel	rbf
+max_iter	2000
+random_state	1
+tol	0.0005
+
+Confusion Matrix
+3173	47	
+42	250	
+
+Model Result
+              precision    recall  f1-score   support
+
+         0.0       0.99      0.99      0.99      3220
+         1.0       0.84      0.86      0.85       292
+
+   micro avg       0.97      0.97      0.97      3512
+   macro avg       0.91      0.92      0.92      3512
+weighted avg       0.97      0.97      0.97      3512
+
+
+
+Decision Tree
+
+Best Parameters
+criterion	entropy
+random_state	1
+
+Confusion Matrix
+3159	61	
+78	214	
+
+Model Result
+              precision    recall  f1-score   support
+
+         0.0       0.98      0.98      0.98      3220
+         1.0       0.78      0.73      0.75       292
+
+   micro avg       0.96      0.96      0.96      3512
+   macro avg       0.88      0.86      0.87      3512
+weighted avg       0.96      0.96      0.96      3512
+
+
+
+KNN
+
+Best Parameters
+algorithm	ball_tree
+n_neighbors	7
+
+Confusion Matrix
+3162	58	
+32	260	
+
+Model Result
+              precision    recall  f1-score   support
+
+         0.0       0.99      0.98      0.99      3220
+         1.0       0.82      0.89      0.85       292
+
+   micro avg       0.97      0.97      0.97      3512
+   macro avg       0.90      0.94      0.92      3512
+weighted avg       0.98      0.97      0.97      3512
+
+
+
+Logistic Regression
+
+Best Parameters
+C	0.5
+max_iter	400
+multi_class	multinomial
+random_state	1
+solver	newton-cg
+tol	0.0005
+
+Confusion Matrix
+3172	48	
+62	230	
+
+Model Result
+              precision    recall  f1-score   support
+
+         0.0       0.98      0.99      0.98      3220
+         1.0       0.83      0.79      0.81       292
+
+   micro avg       0.97      0.97      0.97      3512
+   macro avg       0.90      0.89      0.89      3512
+weighted avg       0.97      0.97      0.97      3512
+
+
+
+Random Forest
+
+Best Parameters
+criterion	entropy
+n_estimators	270
+random_state	1
+
+Confusion Matrix
+3177	43	
+47	245	
+
+Model Result
+              precision    recall  f1-score   support
+
+         0.0       0.99      0.99      0.99      3220
+         1.0       0.85      0.84      0.84       292
+
+   micro avg       0.97      0.97      0.97      3512
+   macro avg       0.92      0.91      0.92      3512
+weighted avg       0.97      0.97      0.97      3512
+
+
+
+AdaBoost
+
+Best Parameters
+base_estimator	DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=3,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=1,
+            splitter='best')
+learning_rate	0.2
+random_state	1
+
+Confusion Matrix
+3174	46	
+68	224	
+
+Model Result
+              precision    recall  f1-score   support
+
+         0.0       0.98      0.99      0.98      3220
+         1.0       0.83      0.77      0.80       292
+
+   micro avg       0.97      0.97      0.97      3512
+   macro avg       0.90      0.88      0.89      3512
+weighted avg       0.97      0.97      0.97      3512
+
+
+
+XGBoost
+
+Best Parameters
+booster	dart
+learning_rate	0.30000000000000004
+n_estimators	190
+objective	binary:logistic
+random_state	1
+subsample	0.9
+
+Confusion Matrix
+3181	39	
+44	248	
+
+Model Result
+              precision    recall  f1-score   support
+
+         0.0       0.99      0.99      0.99      3220
+         1.0       0.86      0.85      0.86       292
+
+   micro avg       0.98      0.98      0.98      3512
+   macro avg       0.93      0.92      0.92      3512
+weighted avg       0.98      0.98      0.98      3512
+
+
+
