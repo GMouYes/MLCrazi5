@@ -24,12 +24,12 @@ In the expreiment of detecting toy, we take 100 pure photos containing the targe
 The target in each experiment is shown in Figure 2 and 3, respectively.
 
 <p align="center">
-  <img src="0.jpg" height="280" width="400"><br/>
+  <img src="\Image\0.jpg" height="280" width="400"><br/>
   <h6 align="center">Figure 2: The target in the experiment of detecting logo</h6><br/>
 </p><br/>
 
 <p align="center">
-  <img src="1.jpg" height="350" width="400"><br/>
+  <img src="\Image\1.jpg" height="350" width="400"><br/>
   <h6 align="center">Figure 3: The target in the experiment of detecting the toy</h6><br/>
 </p><br/>
 
@@ -43,12 +43,12 @@ The target in each experiment is shown in Figure 2 and 3, respectively.
 First, in the comparative experiment of Step2, we tune each classifier and compare them based on precision, recall and F1-Score. In practice, we prefer choosing the one with highest F1-Score rather than other metrices, because the F1 score is the harmonic average of the precision and recall.  
 The comparative result is shown in Fig.4 and Fig.5:
 <p align="center">
-  <img src="result_lakers.png" height="250" width="400"><br/>
+  <img src="\Image\result_lakers.png" height="250" width="400"><br/>
   <h6 align="center">Figure 4: The result in the comparative experiment of detecting team loge</h6><br/>
 </p><br/>
 
 <p align="center">
-  <img src="result_toy.png" height="250" width="400"><br/>
+  <img src="\Image\result_toy.png" height="250" width="400"><br/>
   <h6 align="center">Figure 5: The result in the comparative experiment of detecting toy</h6><br/>
 </p><br/>
 
@@ -64,12 +64,12 @@ Secondly, for a new photos in the Step3, we consider the potential location of t
 ## Project Output
 
 <p align="center">
-  <img src="result.png" height="280" width="400"><br/>
+  <img src="\Image\result.png" height="280" width="400"><br/>
   <h6 align="center">Figure 6: Output of Detecting Lakers Logo</h6><br/>
 </p><br/>
 
 <p align="center">
-  <img src="result_toy.jpg" height="350" width="200"><br/>
+  <img src="\Image\result_toy.jpg" height="350" width="200"><br/>
   <h6 align="center">Figure 7: Output of Detecting toy</h6><br/>
 </p><br/>
 
