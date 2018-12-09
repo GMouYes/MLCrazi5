@@ -44,7 +44,7 @@ First, in the comparative experiment of Step2, we tune each classifier and compa
 The comparative result is shown in Fig.4 and Fig.5:
 <p align="center">
   <img src="result_lakers.png" height="250" width="400"><br/>
-  <h6 align="center">Figure 4: The result in the comparative experiment of detecting team loge</h6><br/>
+  <h6 align="center">Figure 4: The result in the comparative experiment of detecting team logo</h6><br/>
 </p><br/>
 
 <p align="center">
